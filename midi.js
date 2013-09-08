@@ -29,7 +29,7 @@ MIDI.init = function() {
       window.AudioContext = window.AudioContext || window.webkitAudioContext;
       context = new AudioContext();
     } catch (e) {
-      alert('Web Audio API is not supported in this browser');
+      alert('Web Audio API is not supported in this browser. Chrome is strongly recommended!');
     }
 	
     startTime = context.currentTime + 0.100;
