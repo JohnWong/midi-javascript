@@ -1,0 +1,361 @@
+body{
+  background: #E4E4E4;
+  padding: 0;
+  margin: 8px 0 8px 0;
+}
+#tablature{
+  width: 1024px;
+  height: 2720px; 
+  background: url(tablature.png);
+  margin: auto;
+  padding: 0;
+}
+#top{
+  position: absolute;
+  top: 8px;
+  width: 100%;
+  height: 149px;
+}
+#fork-wrap{
+  width: 1024px;
+  height: 149px;
+  margin: auto;
+}
+.cover{
+  background-color: blue;
+  position: relative;
+  height: 24px;
+  opacity: 0.3;
+  width: 22px;
+  display: none;
+  float: left;
+}
+.line{
+  width: 100%;
+  height: 24px;
+  position: relative;
+}
+#line1{
+  top: 384px;
+}
+#line2{
+  top: 594px;
+}
+#line3{
+  top: 804px;
+}
+#line4{
+  top: 1014px;
+}
+#line5{
+  top: 1224px;
+}
+#line6{
+  top: 1440px;
+}
+#line7{
+  top: 1650px;
+}
+#line8{
+  top: 1860px;
+}
+#line9{
+  top: 2070px;
+}
+#line10{
+  top: 2304px;
+}
+#cv2, #cv3, #cv4{
+  left: 760px;
+}
+#cv8, #cv9, #cv10{
+  left: 812px;
+}
+#cv11{
+  left: 152px;
+}
+#cv12{
+  left: 158px;
+}
+#cv13{
+  left: 164px;
+}
+#cv14{
+  left: 170px;
+}
+#cv15{
+  left: 170px;
+}
+#cv17{
+  left: 184px;
+}
+#cv19, #cv20, #cv21{
+  left: 224px;
+}
+#cv22{
+  left: 240px;
+}
+#cv23, #cv24, #cv25{
+  left: 246px;
+}
+#cv27, #cv28{
+  left: 322px;
+}
+#cv29{
+  left: 344px;
+}
+#cv30, #cv31{
+  left: 354px;
+}
+#cv36, #cv37, #cv38{
+  left: 168px;
+}
+#cv42, #cv43, #cv44{
+  left: 213px;
+}
+#cv45, #cv46, #cv47, #cv48, #cv49, #cv50{
+  left: 219px;
+}
+#cv52{
+  left: 228px;
+}
+#cv54, #cv55{
+  left: 252px;
+}
+#cv56, #cv57, #cv58{
+  left: 262px;
+}
+#cv60{
+  left: 272px;
+}
+#cv62, #cv63, #cv64{
+  left: 308px;
+}
+#cv65{
+  left: 316px;
+}
+#cv70{
+  left: 196px;
+}
+#cv71, #cv72{
+  left: 202px;
+}
+#cv76, #cv77{
+  left: 276px;
+}
+#cv78, #cv79{
+  left: 284px;
+}
+#cv80{
+  left: 304px;
+}
+#cv81, #cv82, #cv83{
+  left: 308px;
+}
+#cv85{
+  left: 320px;
+}
+#cv87, #cv88{
+  left: 351px;
+}
+#cv89{
+  left: 366px;
+}
+#cv90, #cv91{
+  left: 370px;
+}
+#cv93{
+  left: 384px;
+}
+#cv94, #cv95{
+  left: 402px;
+}
+#cv96, #cv97{
+  left: 408px;
+}
+#cv98, #cv99{
+  left: 412px;
+}
+#cv101{
+  left: 163px;
+}
+#cv106{
+  left: 433px;
+}
+#cv107, #cv108{
+  left: 440px;
+}
+#cv111, #cv112{
+  left: 492px;
+}
+#cv113{
+  left: 500px;
+}
+#cv114{
+  left: 510px;
+}
+#cv116{
+  left: 525px;
+}
+#cv117{
+  left: 531px;
+}
+#cv118, #cv119{
+  left: 536px;
+}
+#cv121{
+  left: 550px;
+}
+#cv123, #cv124, #cv125{
+  left: 590px;
+}
+#cv126{
+  left: 152px;
+}
+#cv128, #cv129, #cv130, #cv131{
+  left: 201px;
+}
+#cv132{
+  left: 220px;
+}
+#cv134{
+  left: 243px;
+}
+#cv136{
+  left: 276px;
+}
+#cv140, #cv141, #cv142{
+  left: 515px;
+}
+#cv143, #cv144{
+  left: 518px;
+}
+#cv146{
+  left: 533px;
+}
+#cv147, #cv148{
+  left: 539px;
+}
+#cv149, #cv150{
+  left: 545px;
+}
+#cv152{
+  left: 164px;
+}
+#cv153{
+  left: 185px;
+}
+#cv154, #cv155{
+  left: 191px;
+}
+#cv159{
+  left: 287px;
+}
+#cv160{
+  left: 302px;
+}
+#cv161, #cv162{
+  left: 309px;
+}
+#cv163{
+  left: 311px;
+}
+#cv164, #cv165{
+  left: 316px;
+}
+#cv167{
+  left: 330px;
+}
+#cv168{
+  left: 338px;
+}
+#cv170{
+  left: 354px;
+}
+#cv171{
+  left: 361px;
+}
+#cv172, #cv173{
+  left: 372px;
+}
+#cv174{
+  left: 378px;
+}
+#cv178{
+  left: 149px;
+}
+#cv179{
+  left: 153px;
+}
+#cv180{
+  left: 157px;
+}
+#cv181, #cv182{
+  left: 162px;
+}
+#cv184{
+  left: 176px;
+}
+#cv186, #cv187, #cv188{
+  left: 211px;
+}
+#cv189{
+  left: 225px;
+}
+#cv190{
+  left: 228px;
+}
+#cv191{
+  left: 233px;
+}
+#cv192, #cv193{
+  left: 236px;
+}
+#cv195{
+  left: 251px;
+}
+#cv197, #cv198, #cv199{
+  left: 286px;
+}
+#cv200{
+  left: 300px;
+}
+#cv201, #cv202{
+  left: 304px;
+}
+#cv204{
+  left: 318px;
+}
+#cv206{
+  left: 388px;
+}
+#cv207, #cv208{
+  left: 392px;
+}
+#cv213, #cv214, #cv215{
+  left: 258px;
+}
+#cv216, #cv217, #cv218{
+  left: 278px;
+}
+#cv220{
+  left: 288px;
+}
+#cv222, #cv223, #cv224{
+  left: 323px;
+}
+#cv245, #cv246, #cv247{
+  left: 454px;
+}
+#cv249{
+  left: 466px;
+}
+#cv251, #cv252, #cv253{
+  left: 503px;
+}
+#fork{
+  float: right;
+  width: 149px;
+  height: 149px;
+  background: url(forkme.png);
+}
